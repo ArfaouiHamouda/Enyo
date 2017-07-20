@@ -38,7 +38,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(2,146,219,.1);
+    background: rgba(2,146,219,.3);
 }
 #header .row {
     position: absolute;
@@ -56,8 +56,7 @@ body {
     font-weight:700;
 }
 #header .row p {
-    font-size:15px;
-    color: rgba(255,255,255,.8);
+    font-size:16px;
 }
 .btn.btn-custome,
 .btn.btn-custome.focus,
@@ -112,7 +111,81 @@ body {
 
 /********************* Features ****************************/
 #features {
+    padding: 50px 0;
     min-height:300px;
     background-color: #f7f9fb;
 }
+#features .feat {
+    padding: 50px 0;
+}
+#features .feat .description {
+    width: 80%;
+    float:right;
+}
+#featrues .feat .description h3 ,
+#features .feat .fa {
+    color: #25365d;
+}
+#features .feat .description h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+#features .feat .description p {
+    line-height:1.7;
+    font-size:16px;
+    color: #676767;
+}
 /********************* Features ****************************/
+
+/********************* Plans ****************************/
+#plans {
+    padding: 50px 0;
+    position: relative;
+}
+#plans h1 {
+    color: #25365d;
+    font-weight: 700;
+}
+#plans p.lead {
+    padding: 30px;
+    font-weight:400;
+}
+#plans p {
+    font-size: 16px;
+}
+#plans .plan {
+    margin: 30px 0 75px;
+    padding: 35px 0;
+    background-color: #FFF;
+    /* Box Shadow */
+    -webkit-box-shadow: 0px 0px 130px -24px rgba(37,54,93,0.36);
+    -moz-box-shadow: 0px 0px 130px -24px rgba(37,54,93,0.36);
+    box-shadow: 0px 0px 130px -24px rgba(37,54,93,0.36);
+}
+#plans .plan p ,
+#plans .plan h4 {
+    color: #5a5a5a;
+    font-size: 18px;
+}
+#plans .plan .price {
+    color: #25365d;
+}
+#plans .plan .price span {
+    font-weight: 700;
+    font-size: 72px;
+}
+#plans .plan .price i {
+    font-size: 40px;
+    font-style: normal;
+}
+#plans .contact {
+    width:55%;
+    margin: 0 auto;
+    color: #25365d;
+}
+#plans .contact ul {
+    font-weight: 700;
+    font-size: 22px;
+}
+/********************* Plans ****************************/
