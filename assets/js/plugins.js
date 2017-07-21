@@ -11,4 +11,10 @@ $(document).ready(function(){
         $(this).addClass("selected").siblings().removeClass("selected");
     });
 
+    // Trigger magnific-popup
+    $('.item').magnificPopup({
+        type: 'image'
+        // other options
+    });
+
 })
