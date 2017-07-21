@@ -9,7 +9,7 @@ body {
 /********************* Global ****************************/
 /********************* NavBar ****************************/
 .navbar-default {
-    margin-top: 40px;
+    margin-top: 20px;
     border: 0px;
     margin-bottom: 0px;
     position: absolute;
@@ -19,6 +19,36 @@ body {
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+.navbar-default .dropdown-menu {
+    min-width: 205px;
+}
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover,
+.dropdown-menu {
+    background: transparent;
+    color: #FFF;
+    -webkit-box-shadow: none ;
+    -moz-box-shadow: none ;
+    box-shadow: none;
+    border: none;
+}
+.navbar-default .form-control {
+    -webkit-border-radius: 0px ;
+    -moz-border-radius: 0px ;
+    border-radius: 0px ;
+    border: none;
+    border: solid #FFF 2px ;
+    color: #FFF;
+    font-weight:300;
+    background-color: transparent;
+    -webkit-box-shadow: none ;
+    -moz-box-shadow: none ;
+    box-shadow: none ;
+}
+.navbar-default .form-control::-webkit-input-placeholder {
     color: #FFF;
 }
 /********************* NavBar ****************************/

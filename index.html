@@ -55,8 +55,20 @@
                     <li class="hvr-underline-from-left"><a href="#">Skills</a></li>
                     <li class="hvr-underline-from-left"><a href="#">Projects</a></li>
                     <li class="hvr-underline-from-left"><a href="#">Plans</a></li>
-                    <li class="hvr-underline-from-left"><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-search"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="form-group">
+                                    <input type="search" class="form-control" placeholder="Search">
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
+
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
@@ -176,15 +188,15 @@
         <div class="container">
             <h1 class="text-center text-uppercase wow fadeInDown">projects</h1>
             <ul class="menu list-inline wow fadeInDown">
-                <li class="filter selected active" data-filter="all">All</li>
-                <li class="filter" data-filter=".ux-ui">UI/UX</li>
-                <li class="filter" data-filter=".md">3D</li>
-                <li class="filter" data-filter=".graphic-design">Graphic Design</li>
+                <li class="selected" data-filter="all">All</li>
+                <li data-filter=".ux-ui">UI/UX</li>
+                <li data-filter=".md">3D</li>
+                <li data-filter=".graphic-design">Graphic Design</li>
             </ul>
             <div id="plugin">
                 <div class="row">
                     <!-- Item -->
-                    <div class="col-md-4 mix md wow zoomIn">
+                    <div class="col-md-4 mix md">
                         <div class="item" href="assets/img/item.jpg">
                             <div class="overlay">
                                 <i class="fa fa-2x fa-search-plus"></i>
@@ -198,7 +210,7 @@
                     </div>
                     <!-- Item -->
                     <!-- Item -->
-                    <div class="col-md-4 mix graphic-design wow zoomIn">
+                    <div class="col-md-4 mix graphic-design">
                         <div class="item" href="assets/img/item2.jpg">
                             <div class="overlay">
                                 <i class="fa fa-2x fa-search-plus"></i>
@@ -212,7 +224,7 @@
                     </div>
                     <!-- Item -->
                     <!-- Item -->
-                    <div class="col-md-4 mix ux-ui wow zoomIn">
+                    <div class="col-md-4 mix ux-ui">
                         <div class="item" href="assets/img/item3.jpg">
                             <div class="overlay">
                                 <i class="fa fa-2x fa-search-plus"></i>
@@ -226,7 +238,7 @@
                     </div>
                     <!-- Item -->
                     <!-- Item -->
-                    <div class="col-md-4 mix graphic-design wow zoomIn">
+                    <div class="col-md-4 mix graphic-design">
                         <div class="item" href="assets/img/item4.jpg">
                             <div class="overlay">
                                 <i class="fa fa-2x fa-search-plus"></i>
@@ -240,7 +252,7 @@
                     </div>
                     <!-- Item -->
                     <!-- Item -->
-                    <div class="col-md-4 mix ux-ui wow zoomIn">
+                    <div class="col-md-4 mix ux-ui">
                         <div class="item" href="assets/img/item5.jpg">
                             <div class="overlay">
                                 <i class="fa fa-2x fa-search-plus"></i>
@@ -254,7 +266,7 @@
                     </div>
                     <!-- Item -->
                     <!-- Item -->
-                    <div class="col-md-4 mix md wow zoomIn">
+                    <div class="col-md-4 mix md">
                         <div class="item" href="assets/img/item6.jpg">
                             <div class="overlay">
                                 <i class="fa fa-2x fa-search-plus"></i>
@@ -282,7 +294,7 @@
             </p>
             <div class="row">
                 <!-- Plan -->
-                <div class="col-md-4 hvr-grow wow zoomIn" data-wow-delay=".2s">
+                <div class="col-md-4 hvr-pulse">
                     <div class="plan">
                         <h4 class="text-uppercase">basic plan</h4>
                         <p class="price"><span><i>$</i>25</span>/mon</p>
@@ -291,7 +303,7 @@
                 </div>
                 <!-- Plan -->
                 <!-- Plan -->
-                <div class="col-md-4 hvr-grow wow zoomIn" data-wow-delay=".3s">
+                <div class="col-md-4 hvr-pulse">
                     <div class="plan">
                         <h4 class="text-uppercase">professional plan</h4>
                         <p class="price"><span><i>$</i>25</span>/mon</p>
@@ -300,7 +312,7 @@
                 </div>
                 <!-- Plan -->
                 <!-- Plan -->
-                <div class="col-md-4 hvr-grow wow zoomIn" data-wow-delay=".4s">
+                <div class="col-md-4 hvr-pulse">
                     <div class="plan">
                         <h4 class="text-uppercase">professional+ plan</h4>
                         <p class="price"><span><i>$</i>25</span>/mon</p>
@@ -394,14 +406,14 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="assets/js/jquery.min.js"></script>
-    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <!-- Magnific Popup core JS file -->
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <!-- MixitUp -->
     <script src="assets/js/mixitup.min.js"></script>
-    <!-- MixitUp -->
+    <!-- WOW JS -->
     <script src="assets/js/wow.min.js"></script>
+    <!-- Bootstrap Core JS File -->
+    <script src="assets/js/bootstrap.min.js"></script>
     <!-- Plugins.JS -->
     <script src="assets/js/plugins.js"></script>
     </body>
