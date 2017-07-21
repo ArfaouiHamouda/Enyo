@@ -140,6 +140,74 @@ body {
 }
 /********************* Features ****************************/
 
+/********************* Projects ****************************/
+#projects {
+    min-height: 500px;
+    padding: 50px 0 100px;
+}
+#projects h1 {
+    color: #25365d;
+    font-weight: 700;
+}
+#projects .menu {
+    margin: 50px 0 30px -15px;
+}
+#projects .menu li {
+    cursor: pointer;
+    color: rgba(37,54,93,.8);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(37,54,93,.8);
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 5px;
+}
+#projects .menu .selected {
+    color: #FFF;
+    background-color: rgba(37,54,93,.8);
+    border-color: rgba(37,54,93,0);
+}
+#projects .col-md-4 {
+    padding:0;
+}
+#projects .item {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+}
+#projects .item:hover .overlay ,
+#projects .item:hover .like {
+    display: block;
+}
+#projects .item img {
+    height: 250px;
+    width: 100%;
+}
+#projects .item .overlay {
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color: rgba(37,54,93,.8);
+    line-height: 260px;
+    text-align: center;
+    color: #FFF;
+    display: none;
+}
+#projects .item .like {
+    position: absolute;
+    bottom:10%;
+    right:10%;
+    font-weight:700;
+    color: #FFF;
+    display: none;
+}
+/********************* Projects ****************************/
+
 /********************* Plans ****************************/
 #plans {
     padding: 50px 0;
