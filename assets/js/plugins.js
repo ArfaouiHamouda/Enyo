@@ -12,7 +12,7 @@ $(document).ready(function(){
     });
 
     // Trigger magnific-popup
-    $('.item').magnificPopup({
+    $('#plans .item').magnificPopup({
         type: 'image'
         // other options
     });
