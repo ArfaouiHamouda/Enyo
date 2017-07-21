@@ -3,7 +3,7 @@ Author : Arfaoui Hamouda
 Version : 0.1
  */
 $(document).ready(function(){
-
+    "use strict";
     // Trigger MixitUp
     var mixer = mixitup('#plugin');
     // Adjust Shuffle Links
@@ -23,7 +23,7 @@ $(document).ready(function(){
     // Nice Scroll
     $("html").niceScroll({
         cursorcolor: "#25365d", // change cursor color in hex
-        cursorwidth: "7px", // cursor width in pixel (you can also write "5px")
+        cursorwidth: "8px", // cursor width in pixel (you can also write "5px")
         cursorborder: "none", // css definition for cursor border
         cursorborderradius: "0px", // border radius in pixel for cursor
     });
@@ -46,3 +46,17 @@ $(document).ready(function(){
     });
 
 })
+
+// Loading Screen
+$(window).load(function () {
+    "use strict";
+    // Loading Elements
+    $("#loader .sk-cube-grid").fadeOut(2000, function () {
+        // Show The Scroll
+        $("body").css("overflow", "auto");
+        $("body").css("overflow-x", "hidden");
+        $(this).parent().fadeOut(2000, function () {
+            $(this).remove();
+        });
+    });
+});
