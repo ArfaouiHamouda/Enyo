@@ -9,6 +9,7 @@ body {
 /********************* Global ****************************/
 /********************* NavBar ****************************/
 .navbar-default {
+    margin-top: 40px;
     border: 0px;
     margin-bottom: 0px;
     position: absolute;
@@ -75,6 +76,18 @@ body {
 .btn.btn-custome .fa {
     color: #7f97be;
     margin: 0 5px;
+}
+.btn.btn-custome:hover .fa {
+    -webkit-animation-name: hvr-pulse-grow;
+    animation-name: hvr-pulse-grow;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
 }
 /********************* Header ****************************/
 
@@ -264,6 +277,7 @@ body {
 /********************* Testimonials ****************************/
 #testimonials {
     background: url("../img/testimonials.jpg") no-repeat center center fixed;
+    overflow: hidden;
 }
 #testimonials .overlay {
     background-color: rgba(37,54,93,.7);
@@ -337,3 +351,9 @@ body {
     width: 100%;
 }
 /********************* Footer ****************************/
+
+/********************* Hover.CSS ****************************/
+.hvr-underline-from-left:before {
+    background: #FFF;
+}
+/********************* Hover.CSS ****************************/

@@ -17,4 +17,7 @@ $(document).ready(function(){
         // other options
     });
 
+    // Trigger WOW.JS
+    new WOW().init();
+
 })
